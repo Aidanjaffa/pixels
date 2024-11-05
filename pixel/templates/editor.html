@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block body%}
+<div style="display: flex; align-items: start; justify-content: center; flex-direction: row; width: 100%; gap: 8px;">
+    <div class="icon-bar">
+        <button class="btn btn-outline-dark icon-button" id="plus"><i class="glyphicon glyphicon-plus"></i></button>
+        <button class="btn btn-outline-dark icon-button" id="minus"><i class="glyphicon glyphicon-minus"></i></button>
+        <button class="btn btn-outline-dark icon-button" id="undo"><i class="material-icons">undo</i></button>
+        <button class="btn btn-outline-dark icon-button" id="erase"><i class="glyphicon glyphicon-erase"></i></button>
+        <button class="btn btn-outline-dark icon-button" id="draw"><i class="glyphicon glyphicon-pencil"></i></button>
+        <button class="btn btn-outline-dark icon-button" id="save"><i class="glyphicon glyphicon-floppy-save"></i></button>
+        <div id="color-picker"></div>
+    </div>
+    <canvas></canvas>
+</div>
+
+<script src="{{ url_for('static', filename='editor.js') }}"></script>
+{% endblock %}

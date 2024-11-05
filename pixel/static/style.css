@@ -1,0 +1,119 @@
+nav{
+    height: 60px;
+    background-color: rgb(23, 45, 68);
+    color: white !important;
+    margin-bottom: 10px;
+    border-radius: 0px !important;
+}
+
+.nav-item {
+    flex: 0 1 auto;
+    color: white;
+    text-emphasis: none;
+}
+
+.nav-item-grow {
+    display: flex;
+    flex: 1 1 auto;
+    color: white;
+    text-emphasis: none;
+    justify-content: end;
+}
+
+.text{
+    color: white;
+    margin: 1rem;
+}
+
+.login{
+    text-align: center;
+    font-size: 26px;
+}
+
+canvas{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(182, 182, 182);
+}
+
+.icon-bar{
+    border: rgb(201, 209, 217);
+    border-radius: 4px;
+    background-color: rgb(141, 141, 141);
+    width: fit-content;
+    height: fit-content;
+    padding: 4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-button {
+    width: 32px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    background-color: rgb(122, 134, 145);
+}
+
+.pcr-app {
+    position: absolute;
+    transform: translateX(-200%); /* Center vertically */
+}
+
+.pickr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pcr-button {
+    width: 32px !important;
+}
+
+.pickr-container {
+    position: absolute;
+}
+
+.avatar{
+    border: 1px solid rgb(164, 82, 82);
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+#profile{
+    text-align: center;
+    background-color: rgb(182, 182, 182);
+    width: 100%;
+    height: 100%;
+}
+
+#left{
+    margin-top: 16px;
+    font-size: 16px;
+    padding: 4px;
+    padding-bottom: 32px;
+    width: 100%;
+    background-color: rgba(255,255,255,1);
+
+    border-bottom: 2px solid rgb(141, 141, 141);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
